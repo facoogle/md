@@ -1,0 +1,5 @@
+.blog-creator-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Gap entre los elementos */
+  }

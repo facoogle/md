@@ -1,0 +1,20 @@
+input[type=”file”]#nuestroinput {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  }
+
+  .ql-bold {
+    margin-left: 40px; /* Ajusta el valor según tu preferencia */
+  }
+
+  .ql-editor {
+    color: #151023; /* Cambia el color al que desees */
+  }
+
+  .ql-editor {
+    min-height: 200px;
+  }
