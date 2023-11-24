@@ -137,7 +137,7 @@ let mar = true
               </Link>
               <div>
               <Link to={`/ouservices/page/${item.name}`} style={{ textDecoration: 'none' }}>
-                <Typography component="div" sx={{fontSize:"24px", color:"#423E3F", fontWeight:"400", textTransform:"uppercase",cursor:"pointer"}}>
+                <Typography component="div" sx={{fontSize:is600?"16px":"24px", color:"#423E3F", fontWeight:"400", textTransform:"uppercase",cursor:"pointer"}}>
                   {item.text}
                 </Typography>
               </Link>
