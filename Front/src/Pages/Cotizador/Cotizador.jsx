@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, CardContent, Typography, Button, Container, Grid, Box, LinearProgress } from '@mui/material';
+import { Card, CardContent, Typography, Button, Container, Grid, Box, LinearProgress, useMediaQuery } from '@mui/material';
 import primeravez from "../../assets/asesoria.png"
 import experiencia from "../../assets/experiencia.svg"
 import asesoria from "../../assets/asesoria.svg"
@@ -17,9 +17,12 @@ import camion from "../../assets/pngegg.png"
 import LogisticaForm from './Form';
 import { useNavigate } from 'react-router-dom';
 
+
 export const Cotizador = () => {
   const [etapa, setEtapa] = useState(1);
   const [opcionesSeleccionadas, setOpcionesSeleccionadas] = useState([]);
+
+  const is600 = useMediaQuery('(max-width:600px)');
 
   console.log(opcionesSeleccionadas)
 
@@ -61,6 +64,7 @@ export const Cotizador = () => {
         opciones: [
           { texto: "EXPORTAR", siguienteEtapa: 5, img:importar },
           { texto: "IMPORTAR", siguienteEtapa: 5, img:exportar },
+          { texto: "OTRO REGIMEN", siguienteEtapa: 5, img:exportar },
           // Agregar más opciones o etapas según sea necesario
         ],
       },
@@ -105,7 +109,7 @@ export const Cotizador = () => {
     else if (opcionSeleccionada === "TERRESTRE" && opcionesSeleccionadas.includes("IMPORTAR")) {
       navigate(`/price/IMPORTAR/terrestre`)
     }
-    else if (opcionSeleccionada === "LOGISTICA") {
+    else if (opcionSeleccionada === "LOGISTICA" || opcionSeleccionada === "OTRO REGIMEN") {
       setEtapa("LOGISTICA")
     }
      else {
@@ -128,7 +132,7 @@ export const Cotizador = () => {
   };
 
   return (
-    <Container sx={{ marginTop: "130px" }}>
+    <Container sx={{ marginTop: "130px" , marginBottom:"30vh"}}>
       <Box display="flex" alignItems="center">
         {flujoCotizador.map((etapaInfo) => (
           <Box key={etapaInfo.etapa} sx={{ flex: 1, textAlign: 'center' }}>
@@ -147,10 +151,10 @@ export const Cotizador = () => {
               <Card  onClick={() => handleSeleccion(opcion.texto)} sx={{ display: "flex", justifyContent: "center", alignItems: "center", height: "350px", transition: "box-shadow 0.2s", ":hover": { boxShadow: "0 4px 8px #912327", cursor:"pointer"}}}>
                 <CardContent>
                     <Box sx={{display:"flex", justifyContent:"center"}}>
-                    <img style={{width:"250px", }} src={opcion.img} alt="img" />
+                    <img style={{width:is600?"120px":"250px", }} src={opcion.img} alt="img" />
                   </Box>
                   <Typography variant="h6">{flujoCotizador[etapa - 1].pregunta}</Typography>
-                  <Typography sx={{display:"flex", textAlign:"center",marginTop:"16px",justifyContent:"center"}} variant="h6">{opcion.texto}</Typography>
+                  <Typography sx={{fontSize:is600?"11px":"",display:"flex", textAlign:"center",marginTop:"16px",justifyContent:"center"}} variant="h6">{opcion.texto}</Typography>
                 </CardContent>
               </Card>
             </Grid>

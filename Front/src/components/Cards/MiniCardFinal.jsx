@@ -21,7 +21,7 @@ const backgroundStyle = {
   
 };
 
-export const MiniCardFinal = () => {
+export const MiniCardFinal = ({mar}) => {
 
   const is1024 = useMediaQuery('(max-width:1024px)');
   const is800 = useMediaQuery('(max-width:800px)');
@@ -30,40 +30,28 @@ export const MiniCardFinal = () => {
 <>
       {is1024?(is800?
       <>
-      <div style={{ marginInline:"32px", paddingTop:"60px", paddingBottom:"60px"}}
+      <div style={{ marginInline:mar?"22px":"0px", paddingTop:"60px", paddingBottom:"60px"}}
       >
         <Grid sx={{ display: 'flex', alignItems: 'center' }} container spacing={3}>
           <Grid item xs={12}>
             <Box sx={{display:"flex", flexDirection:"column", background:"", }}>
-            <Typography sx={{ color:"#161122", fontFamily:"Rubik", fontSize:"24px", lineHeight:"32px", fontWeight:"400"}}>
-            Avoid surgery whenever possible. Control inflammation smartly, keep your weight down fuel your body right, take control of your hormones.
+            <Typography sx={{ color:mar?"white":"#161122", fontFamily:"Rubik", fontSize:"24px", lineHeight:"32px", fontWeight:"400"}}>
+            Conoce nuestra herramienta de cotización aduanera. Controla tus costos de importación. Cotiza con inteligencia, ahorra eficazmente.
             </Typography>
 
-            <Typography sx={{marginTop:"8px", color:"#161122", fontFamily:"Ubuntu", fontSize:"24px", lineHeight:"32px", fontWeight:"500", textTransform:"uppercase"}}>
-            Dr. Charles Mahl
+            <Typography sx={{marginTop:"8px", color:mar?"white":"#161122", fontFamily:"Ubuntu", fontSize:"24px", lineHeight:"32px", fontWeight:"500", textTransform:"uppercase"}}>
+            MD GLOBAL 2023
             </Typography>
             </Box>
           </Grid>
   
           <Grid sx={{ display: 'flex' }} item xs={12}>
             <Box sx={{display:"flex", alignItems:"center", width:"100%", justifyContent:"center"}}>
-              <Button sx={{width: "100%",
-                  textTransform: "none",
-                  maxWidth: "314px",
-                  minHeight: "42px",
-                  maxHeight: "42px",
-                  paddingInline:"24px",
-                  borderRadius:"8px",
-                  background:"#209D9F",
-                  boxShadow:"0px 0px 4px 0px rgba(0, 0, 0, 0.24)",
-                  color:"white",
-                  fontSize:"16px",
-                  fontWeight:"Rubik",
-                  fontWeight:"400"
-          
-                  }}>
-                Apply for consultation
+             <a style={{width:"100%"}} href="/cotizador">
+              <Button sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
+                COTIZAR
               </Button>
+              </a>
             </Box>
           </Grid>
         </Grid>
@@ -77,34 +65,22 @@ export const MiniCardFinal = () => {
           <Grid item xs={7}>
             <Box sx={{display:"flex", flexDirection:"column", background:"", }}>
             <Typography sx={{ textShadow: "2px 2px 5px rgba(0, 0, 0, 1)", color:"white", fontFamily:"Rubik", fontSize:"24px", lineHeight:"32px", fontWeight:"400"}}>
-            Avoid surgery whenever possible. Control inflammation smartly, keep your weight down fuel your body right, take control of your hormones.
+            Conoce nuestra herramienta de cotización aduanera. Controla tus costos de importación. Cotiza con inteligencia, ahorra eficazmente.
             </Typography>
 
             <Typography sx={{marginTop:"8px",textShadow: "2px 2px 5px rgba(0, 0, 0, 1)", color:"white", fontFamily:"Ubuntu", fontSize:"24px", lineHeight:"32px", fontWeight:"500", textTransform:"uppercase"}}>
-            Dr. Charles Mahl
+            MD GLOBAL 2023
             </Typography>
             </Box>
           </Grid>
   
           <Grid sx={{ display: 'flex' }} item xs={5}>
             <Box sx={{display:"flex", alignItems:"center", width:"100%", justifyContent:"end"}}>
-              <Button sx={{width: "100%",
-                  textTransform: "none",
-                  maxWidth: "370px",
-                  minHeight: "42px",
-                  maxHeight: "42px",
-                  paddingInline:"24px",
-                  borderRadius:"8px",
-                  background:"#209D9F",
-                  boxShadow:"0px 0px 4px 0px rgba(0, 0, 0, 0.24)",
-                  color:"white",
-                  fontSize:"16px",
-                  fontWeight:"Rubik",
-                  fontWeight:"400"
-          
-                  }}>
-                Apply for consultation
+              <a style={{width:"100%"}} href="/cotizador">
+              <Button sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
+                COTIZAR
               </Button>
+              </a>
             </Box>
           </Grid>
         </Grid>
@@ -132,24 +108,11 @@ export const MiniCardFinal = () => {
   
           <Grid sx={{ display: 'flex' }} item xs={4}>
             <Box sx={{display:"flex", alignItems:"center", width:"100%", justifyContent:"end"}}>
-              <Button sx={{width: "100%",
-                  textTransform: "none",
-                  maxWidth: "314px",
-                  minHeight: "42px",
-                  maxHeight: "42px",
-                  paddingInline:"24px",
-                  borderRadius:"8px",
-                  background:"#912327",
-                  boxShadow:"0px 0px 4px 0px rgba(0, 0, 0, 0.24)",
-                  color:"white",
-                  fontSize:"16px",
-                  fontWeight:"Rubik",
-                  fontWeight:"400",
-                  
-          
-                  }}>
+              <a style={{width:"100%"}} href="/cotizador">
+              <Button sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
                 COTIZAR
               </Button>
+              </a>
             </Box>
           </Grid>
         </Grid>

@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useParams } from 'react-router-dom';
 
 //components Home
 import { Portada } from "./01-Portada/Portada";
@@ -23,6 +25,7 @@ export const Home = () => {
 
   const dispatch = useDispatch();
   const { blogAll } = useSelector((state) => state.blogAll);
+  const is900 = useMediaQuery('(max-width:900px)');
 
   useEffect(() => {
     
@@ -38,7 +41,7 @@ export const Home = () => {
       <Portada/>
       <OurServices/>
       <DrCertification/>
-      <div style={{marginTop:"250px",marginBottom:"130px",display:"flex", justifyContent:"center"}}>
+      <div style={{marginTop:is900?"":"250px",marginBottom:"130px",display:"flex", justifyContent:"center"}}>
         <div style={{ cursor:"pointer",display:"flex", justifyContent:"center",alignItems:"center", paddingInline:"5%"}}>
        <MiniCardFinal/>
         </div>

@@ -94,19 +94,22 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
 
                 <Box sx={{marginInline:is1440?"32px":"", marginTop:"-85px",width:"100%",maxWidth:"312px", flexDirection:"column"}}>
                     
+                <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#EBEBEB", fontSize:"32px", fontFamily:"Ubuntu", fontWeight:500, lineHeight:"normal",marginBottom:"16px"}}>
+                UNA AGENCIA
+               </Typography>
                
                     
-                    <Typography data-aos="fade-right" data-aos-duration={1500} data-aos-delay="200" sx={{color:"#EBEBEB", fontSize:is300?"30px":"40px", fontWeight:400, lineHeight:"normal",marginBottom:"12px", width:"100%", maxWidth:"312px"}}>
-                    Regenerative Orthopedic  and Sports Medicine treatments
+                    <Typography data-aos="fade-right" data-aos-duration={1500} data-aos-delay="200" sx={{color:"#912327", fontSize:is300?"30px":"40px", fontWeight:400, lineHeight:"normal",marginBottom:"12px", width:"100%", maxWidth:"312px"}}>
+                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR
                     </Typography>
 
                     <Typography data-aos="fade-right" data-aos-duration={1500} data-aos-delay="300" sx={{width:"100%",maxWidth:"472px",color:"#EBEBEB", fontFamily:"Rubik", fontSize:"14px", fontWeight:400,lineHeight:"normal",marginBottom:"24px", maxWidth:"264px"}}>
-                    Providing high level treatments to our patients to heal injuries and manage chronic pain without surgery,  while placing great value on our service and expertise. 
+                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística
                     </Typography>
 
-                    <Link to="/about" style={{ textDecoration: 'none' }}>
-                    <Button data-aos="fade" data-aos-duration={1400} data-aos-delay="500" variant="contained" sx={{width:"100%",background:"#209D9F", color:"#EBEBEB",fontFamily:"Rubik", fontSize:"16px",fontWeight:400, maxWidth:"177px", textTransform: "none",}}>
-                    Contact Us
+                    <Link to="/services" style={{ textDecoration: 'none' }}>
+                    <Button data-aos="fade" data-aos-duration={1400} data-aos-delay="500" variant="contained" sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
+                    Servicios
                     </Button>
                     </Link>
 
@@ -123,21 +126,21 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
                 <Box sx={{marginInline:is1440?"32px":"", marginTop:"-120px",width:"100%",maxWidth:"594px", flexDirection:"column"}}>
                    
                 <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#EBEBEB", fontSize:"32px", fontFamily:"Ubuntu", fontWeight:500, lineHeight:"normal",marginBlock:"32px"}}>
-                DR. CHARLES MAHL MD FACS FICS 
+                UNA AGENCIA
                </Typography>
                    
                     <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#EBEBEB", fontSize:"40px", fontWeight:400, lineHeight:"normal",marginBlock:"32px"}}>
-                    Regenerative Orthopedic  & Sport Medicine 
+                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR
                     </Typography>
 
                     <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="400" sx={{width:"100%",maxWidth:"472px",color:"#EBEBEB", fontFamily:"Rubik", fontSize:"16px", fontWeight:400,lineHeight:"normal",marginBottom:"32px"}}>
-                    Providing high level treatments to our patients to heal injuries and manage chronic pain without surgery,  while placing great value on our service and expertise. 
+                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística
                     </Typography>
-                    <Link to="/about" style={{ textDecoration: 'none' }}>
+                    {/* <Link to="/about" style={{ textDecoration: 'none' }}>
                     <Button data-aos="fade" data-aos-duration={1400} data-aos-delay="500" variant="contained" sx={{width:"100%",background:"#209D9F", color:"#EBEBEB",fontFamily:"Rubik", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
                     Contact Us
                     </Button>
-                   </Link>
+                   </Link> */}
 
                 </Box>
             </Box>
@@ -167,11 +170,11 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
                     En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística
                     </Typography>
 
-                    <a href="/home#dr-mahl" style={{textDecoration:"none"}}>
+                    <Link to="/services" style={{ textDecoration: 'none' }}>
                     <Button data-aos="fade" data-aos-duration={1400} data-aos-delay="500" variant="contained" sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
                     SERVICIOS
                     </Button>
-                    </a>
+                    </Link>
 
                 </Box>
             </Box>

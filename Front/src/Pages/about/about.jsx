@@ -70,22 +70,20 @@ export const About = ()=>{
                   }}
           />
 
-          <Typography sx={{fontFamily:"Rubik", color:"#151023", fontSize:"18px", lineHeight:"26px", fontWeight:"400", marginBottom:"26px"}}>
-          Dr. Charles F. Mahl is a physician/surgeon who specializes in the practice of Regenerative Orthopedics & Sport Medicine with an unwavering passion for physical well-being. With extensive experience in the field, Dr. Mahl is dedicated to providing innovative and personalized solutions for sports injuries and enhancing the quality of life for his patients.
+          <Typography sx={{fontFamily:"Rubik", color:"", fontSize:"18px", lineHeight:"26px", fontWeight:"400", marginBottom:"26px"}}>
+          La Agencia Aduanal MD Global Trade Services SC surge con el objetivo de proporcionar un servicio de primer nivel, que garantice la certidumbre de nuestros clientes, en sus operaciones de comercio exterior, contando con tecnología de punta y personal capacitado, que ayuden al cumplimiento de las exigencias delcliente.
           </Typography>
 
-          <Typography sx={{fontFamily:"Rubik", color:"#151023", fontSize:"16px", lineHeight:"normal", fontWeight:"600",marginBottom:"26px"}}>
-          His comprehensive approach, combined with his commitment and medical expertise, makes him a prominent authority in orthopedic care.
+          <Typography sx={{fontFamily:"Rubik", color:"", fontSize:"16px", lineHeight:"normal", fontWeight:"600",marginBottom:"26px"}}>
+          Empresa Joven, pero con personal competitivo, con ideas nuevas y en busca de la mejora continua. Empresa formada en el 2002, por el agente aduanal Ing. Maria Elena Moreno Durazo, Patente nacional 3849, con aduana de adscripción en Nogales Sonora y con operaciones en la Cd. De Hermosillo, por la aduana de Guaymas Sonora.
           </Typography>
 
-          <Typography sx={{fontFamily:"Rubik", color:"#151023", fontSize:"18px", lineHeight:"26px", fontWeight:"400",marginBottom:"50px"}}>
-          With Dr. Mahl, you are in the hands of a professional who is dedicated to your recovery and optimal performance, combining his knowledge of regenerative medicine with that of age management medicine, he can now help and guide many people to lead a long healthy life with vitality and energy and productivity.
-          </Typography>
-          <a href="#dr-mahl" style={{textDecoration:"none"}}>
+          
+          <a href="/aduanas" style={{textDecoration:"none"}}>
           <Box sx={{width:"100%", display:"flex", justifyContent:"center"}}>
           
-          <Button data-aos="fade" data-aos-offset="-50" data-aos-duration={1500}  data-aos-delay="300" sx={{color:"#EBEBEB", background:"#6252A3",fontFamily:"Rubik",borderRadius:"8px", fontWeight:"400",fontSize:"16px",textTransform:"none", height:"48px", width:"100%",maxWidth:"426px"}} variant="outlined" color="primary">
-          Contact Dr. Mahl
+          <Button data-aos="fade" data-aos-offset="-50" data-aos-duration={1500}  data-aos-delay="300" sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}} variant="outlined" color="primary">
+          Aduanas
                      </Button>  
                      
           </Box>
@@ -100,7 +98,7 @@ export const About = ()=>{
         </Box>
         </Box>
 
-        <Box sx={{display:"flex", justifyContent:"center", background:"#151023", paddingBottom:"42px", paddingTop:"84px"}}>
+        <Box sx={{display:"flex", justifyContent:"center", background:"", paddingBottom:"42px", paddingTop:"84px"}}>
                 <Box sx={{display:"flex", width:"100%", maxWidth:"1440px", marginInline:is1440?(is1024?"32px":"60px"):"5%", background:"", flexDirection:"column"}}>
 
        
@@ -150,12 +148,12 @@ export const About = ()=>{
                   }}
           />
 
-          <Typography sx={{fontFamily:"Rubik", color:"#151023", fontSize:"18px", lineHeight:"26px", fontWeight:"400", marginBottom:"26px"}}>
+          <Typography sx={{fontFamily:"Rubik", color:"", fontSize:"18px", lineHeight:"26px", fontWeight:"400", marginBottom:"26px"}}>
           La Agencia Aduanal MD Global Trade Services SC surge con el objetivo de proporcionar un servicio de primer nivel, que garantice la certidumbre de nuestros clientes, en sus operaciones de comercio exterior, contando con tecnología de punta y personal capacitado, que ayuden al cumplimiento de las exigencias delcliente.
 
           </Typography>
 
-          <Typography sx={{fontFamily:"Rubik", color:"#151023", fontSize:"16px", lineHeight:"normal", fontWeight:"600",marginBottom:"26px"}}>
+          <Typography sx={{fontFamily:"Rubik", color:"", fontSize:"16px", lineHeight:"normal", fontWeight:"600",marginBottom:"26px"}}>
           Empresa Joven, pero con personal competitivo, con ideas nuevas y en busca de la mejora continua. Empresa formada en el 2002, por el agente aduanal Ing. Maria Elena Moreno Durazo, Patente nacional 3849, con aduana de adscripción en Nogales Sonora y con operaciones en la Cd. De Hermosillo, por la aduana de Guaymas Sonora.
           </Typography>
 
@@ -210,16 +208,14 @@ export const About = ()=>{
         <Box sx={{display:"flex", flexDirection:"column", marginTop:"140px"}}>
 
 <Box sx={{display:"flex", justifyContent:"center", background:""}}>
-              <Box sx={{display:"flex", width:"100%", maxWidth:"1440px", marginInline:is1440?(is1024?"32px":"60px"):"5%", background:"", flexDirection:"column", marginTop:is900?"130px":""}}>
+              <Box sx={{display:"flex", width:"100%", maxWidth:"1440px", marginInline:is1440?(is1024?"32px":"60px"):"5%", background:"", flexDirection:"column", marginTop:is900?"0px":""}}>
 
 
                   <CarouselAbout/>
                   <div id="dr-mahl"></div>
                   {/* <Contact/> */}
-                  <div style={{paddingBottom:"130px"}}>
-
-                  </div>
-                  <Footer/>
+                  
+                 {/* <Footer/> */}
 
 
         </Box>

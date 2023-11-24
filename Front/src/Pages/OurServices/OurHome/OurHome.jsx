@@ -54,7 +54,7 @@ export const OurHome = ()=> {
   );
   
 
-
+let mar = true
 
     return(
         <><div style={{ paddingTop: "154px" }}>
@@ -71,11 +71,11 @@ export const OurHome = ()=> {
                       position: "absolute",
                       
                       left: 0,
-                      width: is1024?"70%":"58.5%",
+                      width: is1024?"90%":"58.5%",
                       height: "3px",
                       background: "#6252A3",
                       zIndex: -1,
-                      marginTop:"82px"
+                      marginTop:is600?"116px":"82px"
                     }}
                   />
   
@@ -190,8 +190,8 @@ export const OurHome = ()=> {
 
 
         <div style={{display:"flex", justifyContent:"center", paddingBottom:is600?"":"140px",paddingTop:"140px"}}>
-      <div style={{background:is800?"#9FE2E3":"", marginInline:is800?"":"64px", maxWidth:"1440px"}}>
-        <MiniCardFinal/>
+      <div style={{ backgroundImage:is800? "linear-gradient(to top, #ff0844 0%, #ffb199 100%)":"", marginInline:is800?"":"64px", maxWidth:"1440px"}}>
+        <MiniCardFinal mar={mar}/>
       </div>
     </div>
 

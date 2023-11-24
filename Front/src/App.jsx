@@ -6,24 +6,25 @@ import theme from '../src/theme/theme';
 import TablaCostosAduana from "./Pages/Cotizador/Prices"
 
 // Admin Component and Pages
-import { HomeAdmin } from './PagesAdmin/Home';
-import { LogInForm } from './Pages/Login';
-import { NavBar } from './components/NavNoLogin/navBar';
-import { NavBarLogin } from './components/NavLogin/NavLogin';
+// import { HomeAdmin } from './PagesAdmin/Home';
+// import { LogInForm } from './Pages/Login';
+// import { NavBar } from './components/NavNoLogin/navBar';
+// import { NavBarLogin } from './components/NavLogin/NavLogin';
 
-import ListBlogs from './PagesAdmin/ListBlogs/ListBlogs';
-import BlogCreator from './PagesAdmin/Blog/BlogCreator';
-import BlogEditor from "./PagesAdmin/Blog/BlogEditor"
+// import ListBlogs from './PagesAdmin/ListBlogs/ListBlogs';
+// import BlogCreator from './PagesAdmin/Blog/BlogCreator';
+// import BlogEditor from "./PagesAdmin/Blog/BlogEditor"
 
 //Component Global
 import { NavBarGlobal } from './components/NavBar/NavBar';
 import { Home } from './Pages/Home/Home';
-import { BlogDetail } from './Pages/Blog/BlogDetail/BlogDetail';
-import { DetailOurServices } from './Pages/OurServices/BlogDetail/DetailOurServices';
-import { BlogHome } from './Pages/Blog/BlogHome/BlogHome';
+// import { BlogDetail } from './Pages/Blog/BlogDetail/BlogDetail';
+// import { DetailOurServices } from './Pages/OurServices/BlogDetail/DetailOurServices';
+// import { BlogHome } from './Pages/Blog/BlogHome/BlogHome';
 import { OurHome } from './Pages/OurServices/OurHome/OurHome';
 import { About } from './Pages/about/about';
 import { Cotizador } from './Pages/Cotizador/Cotizador';
+import { Footer } from './components/Footer/Footer';
 
 import LogisticaForm from "./Pages/Cotizador/Form"
 
@@ -108,33 +109,33 @@ function App() {
           <Routes>
           <Route path='/' element={<><NavBarGlobal/><Home/></>} />
           <Route path='/home' element={<><NavBarGlobal/><Home/></>} />
-          <Route path='/price/:tipo/:opcion' element={<><NavBarGlobal/><TablaCostosAduana/></>} />
-          <Route path='/ouservices/page/:name' element={<><NavBarGlobal/><DetailOurServices/></>} />
+          <Route path='/price/:tipo/:opcion' element={<><NavBarGlobal/><TablaCostosAduana/><div style={{paddingTop:"40px"}}><Footer/></div></>} />
+          {/* <Route path='/ouservices/page/:name' element={<><NavBarGlobal/><DetailOurServices/></>} />
           <Route path='/admin/blogcreator' element={<><NavBarLogin/><BlogCreator/></>} />
           <Route path='/admin/editor' element={<><NavBarLogin/><ListBlogs/></>} />
           <Route path='/admin/blogeditor/:id' element={<><NavBarLogin/><BlogEditor/></>} />
           <Route path='/blog/blogPage/:id' element={<><NavBarGlobal/><BlogDetail/></>} />
-          <Route path='/blog' element={<><NavBarGlobal/><BlogHome/></>} />
+          <Route path='/blog' element={<><NavBarGlobal/><BlogHome/></>} /> */}
           <Route path='/services' element={<><NavBarGlobal/><OurHome/></>} />
-          <Route path='/about' element={<><NavBarGlobal/><About/></>} />
+          <Route path='/about' element={<><NavBarGlobal/><About/><Footer/></>} />
           <Route path='/aduanas' element={<><NavBarGlobal/><Maps/></>} />
-          <Route path='/cotizador' element={<><NavBarGlobal/><Cotizador/></>} />
-          <Route path='/form' element={<><NavBarGlobal/><LogisticaForm/></>} />
+          <Route path='/cotizador' element={<><NavBarGlobal/><Cotizador/><Footer/></>} />
+          <Route path='/form' element={<div style={{paddingTop:"120px"}}><NavBarGlobal/><LogisticaForm/><div style={{paddingTop:"40px"}}><Footer/></div></div>} />
               
             
             {decodedToken && decodedToken.username?(
               <>
               
             
-            <Route path='/admin' element={<><NavBarLogin/><BlogCreator/></>} />
+            {/* <Route path='/admin' element={<><NavBarLogin/><BlogCreator/></>} /> */}
             
               
             </>
             ):
             <>
-            <Route path='/admin' element={<><NavBar/><LogInForm /></>} />
-            <Route path='/admin/account' element={<><NavBar/><LogInForm /></>} />
-            <Route path='/admin/login' element={<><NavBar/><LogInForm /></>} /></>}
+            {/* <Route path='/admin' element={<><NavBar/><LogInForm /></>} /> */}
+            {/* <Route path='/admin/account' element={<><NavBar/><LogInForm /></>} /> */}
+            {/* <Route path='/admin/login' element={<><NavBar/><LogInForm /></>} /></>} */ }</>}
            
             <Route path='/*' element={<Navigate to="/" />} /> 
           </Routes>

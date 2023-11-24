@@ -256,7 +256,7 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
             {isTablet ? (
               <>
                 <MobileButton onClick={handleToggleMenu}>
-                  {showMenu ? <img src={Close} alt="MenuButton" /> : <img src={Menu} alt="MenuButton" />}
+                  {showMenu ? <img src={Close} alt="MenuButton" style={{filter: 'drop-shadow(1px 1px 2px rgba(0, 0, 0, 1))',}} /> : <img src={Menu} alt="MenuButton" style={{filter: 'drop-shadow(1px 1px 2px rgba(0, 0, 0, 1))',}}/>}
                   
                 </MobileButton>
                 {showMenu && (

@@ -19,7 +19,7 @@ function Maps() {
         <div style={{ paddingTop: "230px", marginInline: "5%", width: "100%", maxWidth: "1440px" }}>
           <Grid container spacing={2}>
             {/* Botones (Desktop) */}
-            <Grid item xs={4}>
+            <Grid item xs={12} md={4} sx={{width:"100%"}}>
             <Typography sx={{fontWeight:"600", fontSize:"36px"}}>
             ¿Sabías que en México hay 50 ADUANAS?
 
@@ -55,10 +55,10 @@ function Maps() {
             </Grid>
 
             {/* Mapa */}
-            <Grid item xs={8} md={8}>
+            <Grid item xs={12} md={8}>
               <Paper style={{ height: '400px', background: 'lightgray' }}>
                 <div>
-                  <iframe src={selectedMap} width="850" height="600" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src={selectedMap} width="100%" height="600" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </Paper>
             </Grid>

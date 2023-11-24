@@ -107,7 +107,7 @@ export const CarouselAbout = () => {
  
 
   return (
-    <div style={{background:"", paddingTop:0, margin:is600?(is520?"0%":"5%"):0, marginLeft:is520?"3%":0, paddingBottom:is1024?170:"130px"}}>
+    <div style={{background:"",  margin:is600?(is520?"0%":"5%"):0, marginLeft:is520?"3%":0, paddingBottom:is1024?"170px":"130px"}}>
       <Box sx={{display:"flex", justifyContent:"center"}}>
         <Box sx={{display:"flex",width:"100%",maxWidth:"1440px", flexDirection:"column"}}>
       <Typography data-aos="fade-right" data-aos-offset="-50" data-aos-duration={1500}  data-aos-delay="200" sx={{color:"#1A202C", textAlign:"center",display:"flex",marginLeft:is1440?"3.9%":"0", fontFamily:"Ubuntu", fontSize:"36px", fontWeight:"500",lineHeight:"normal",textTransform:"uppercase"}}>

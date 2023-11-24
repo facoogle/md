@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import { TextField, Button, Container, Grid } from '@mui/material';
+import { TextField, Button, Container, Grid, Box, Typography } from '@mui/material';
 
 const LogisticaForm = () => {
   const formik = useFormik({
@@ -40,6 +40,9 @@ const LogisticaForm = () => {
 
   return (
     <Container sx={{ paddingTop: "20px" }}>
+      <Typography sx={{fontSize:"32px", marginBottom:"32px"}}>
+        PERSONALIZAR COTIZACIÓN
+      </Typography>
       <form onSubmit={formik.handleSubmit}>
         <Grid container spacing={2}>
           <Grid item xs={6}>
@@ -252,9 +255,12 @@ const LogisticaForm = () => {
             />
           </Grid>
           <Grid item xs={12}>
-            <Button type="submit" variant="contained" color="primary">
+            <Box sx={{display:"flex", width:"100%", justifyContent:"center"}}>
+              <Button sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}} type="submit" variant="contained" color="primary">
               Enviar
             </Button>
+            </Box>
+            
           </Grid>
         </Grid>
       </form>

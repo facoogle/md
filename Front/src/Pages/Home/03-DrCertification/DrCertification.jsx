@@ -20,7 +20,7 @@ export const DrCertification = () => {
 
 
     return (
-        <div style={{marginBottom:"130px"}}>
+        <div style={{marginBottom:"0px"}}>
 
             {is900?
 
@@ -31,7 +31,7 @@ export const DrCertification = () => {
 <Grid
     sx={{
         display: "flex",
-        background: "#151023",
+        background: "#666666",
         position: "absolute",
         width: "100%",
         maxHeight: "1400px",
@@ -46,27 +46,41 @@ export const DrCertification = () => {
 <Box sx={{ display: "flex", alignItems: "center",justifyContent:"center", position: "relative", width: "100%", height: "777px", maxWidth: "1440px", maxHeight: "777px" ,zIndex: 50 }}>
     <Grid height={"100%"} sx={{ display: "flex", alignItems: "center",  }} container spacing={0}>
         
-        <Grid sx={{ background: "#151023", display:"flex", paddingTop:"48px", paddingBottom:"48px", paddingInline:"10px", borderRadius:"20px", justifyContent:"center" }} item xs={12}>
+        <Grid sx={{ background: "#666666;", display:"flex", paddingTop:"48px", paddingBottom:"48px", paddingInline:"10px", borderRadius:"20px", justifyContent:"center" }} item xs={12}>
 
 
             <Box sx={{ width: "100%", display: "flex", background: "", maxWidth: "800px", marginInline:"6%" }}>
                 <Box sx={{ background: "", display: "flex", flexDirection: "column" }}>
 
                     <Typography data-aos="fade" data-aos-offset="-30" data-aos-duration={1000}  data-aos-delay="200" sx={{textAlign:"center", marginBottom: "21px", color: "#EBEBEB", fontFamily: "Ubuntu", fontSize: "40px", fontWeight: "700", lineHeight: "normal" }}>
-                        DR. CHARLES F. MAHL
+                    ACERCA DE MD GLOBAL
                     </Typography>
 
-                    <Typography data-aos="fade" data-aos-offset="-30" data-aos-duration={1200}  data-aos-delay="200" sx={{ marginBottom: "31px", color: "#EBEBEB", fontSize: "16px", fontWeight: "400", fontFamily: "Rubik", lineHeight: "normal" }}>
-                        Dr. Charles F. Mahl is a renowned expert in Regenerative Orthopedic and Sports Medicine. He trains doctors worldwide, conducts clinical trials, and runs Platelet Rich Plasma Labs in South American hospitals. He treats over 150 physicians and high-profile individuals, specializing in orthobiologics and sports injuries.
-                    </Typography>
+                    <div data-aos="fade-right" data-aos-offset="-30" data-aos-duration={800}  data-aos-delay="200" style={{display:"flex", alignItems:"center"}}>
+                                    <Typography style={{color:"white", marginInline:"6px", marginRight:"6px"}}>
+                                       • 
+                                    </Typography>
 
-                    <Box data-aos="fade" data-aos-offset="-30" data-aos-duration={1500}  data-aos-delay="200" sx={{marginBottom:"31px"}}>
+                                    <Typography sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
+                                    Fue establecido con el objetivo de complementar las operaciones de comercio exterior de nuestros clientes a través de un servicio integral, eficiente y personalizado.                                    </Typography>
+                                    </div>
+
+                                    <div data-aos="fade-right" data-aos-offset="-30" data-aos-duration={800}  data-aos-delay="400" style={{display:"flex", alignItems:"center"}}>
+                                    <Typography style={{color:"white", marginInline:"6px", marginRight:"6px"}}>
+                                       • 
+                                    </Typography>
+
+                                    <Typography sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
+                                    LLevamos más de 20 años despachando y clasificando mercancías, evolucionando para resolver cualquier necesidad logística.</Typography>
+                                    </div>
+
+                    <Box data-aos="fade" data-aos-offset="-30" data-aos-duration={1500}  data-aos-delay="200" sx={{marginBottom:"31px", marginTop:"31px"}}>
                     <img src={DoctorImg} style={{  maxWidth: "100%", height: '100%', objectFit: 'cover' }}>
 
                     </img>
                     </Box>
 
-                    <Grid container spacing={2}>
+                    {/* <Grid container spacing={2}>
                         <Grid item xs={4}>
                             <Box data-aos="zoom-in" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="300" sx={{ width: "93px" }}>
                                 <div style={{ textAlign: 'center' }}>
@@ -92,9 +106,9 @@ export const DrCertification = () => {
                                 </div>
                             </Box>
                         </Grid>
-                    </Grid>
+                    </Grid> */}
 
-                    <Typography data-aos="fade" data-aos-offset="0" data-aos-duration={1000}  data-aos-delay="300" sx={{marginBottom:"10px", marginTop:"31px",color:"#EBEBEB", fontFamily:"Ubuntu",fontSize:"24px",fontWeight:"700", lineHeight:"normal"}}>
+                    {/* <Typography data-aos="fade" data-aos-offset="0" data-aos-duration={1000}  data-aos-delay="300" sx={{marginBottom:"10px", marginTop:"31px",color:"#EBEBEB", fontFamily:"Ubuntu",fontSize:"24px",fontWeight:"700", lineHeight:"normal"}}>
                     CERTIFICATION AND EXPERIENCE
                     </Typography>
 
@@ -106,10 +120,10 @@ export const DrCertification = () => {
                     <Typography  sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
                        President, American Academy of Orthopedic Medicine.
                     </Typography>
-                    </div>
+                    </div> */}
 
 
-                    <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="500" style={{display:"flex", }}>
+                    {/* <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="500" style={{display:"flex", }}>
                     <Typography style={{color:"white", marginInline:"6px", marginRight:"6px"}}>
                        • 
                     </Typography>
@@ -117,10 +131,10 @@ export const DrCertification = () => {
                     <Typography sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
                     Director, AAOM International Hands-On Workshops in Mexico, Ecuador, Argentina, and Peru.
                     </Typography>
-                    </div>
+                    </div> */}
 
 
-                    <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="600" style={{display:"flex", alignItems:"center"}}>
+                    {/* <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="600" style={{display:"flex", alignItems:"center"}}>
                     <Typography style={{color:"white", marginInline:"6px", marginRight:"6px"}}>
                        • 
                     </Typography>
@@ -128,10 +142,10 @@ export const DrCertification = () => {
                     <Typography sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
                     Founder and Director, Prolotherapy Centers of the Americas.
                     </Typography>
-                    </div>
+                    </div> */}
 
 
-                    <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="700" style={{display:"flex", alignItems:"center"}}>
+                    {/* <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="700" style={{display:"flex", alignItems:"center"}}>
                     <Typography style={{color:"white", marginInline:"6px", marginRight:"6px"}}>
                        • 
                     </Typography>
@@ -139,9 +153,9 @@ export const DrCertification = () => {
                     <Typography sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
                     Board of Directors Member, Florida Academy of Pain Medicine.
                     </Typography>
-                    </div>
+                    </div> */}
 
-                    <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="800" style={{display:"flex", alignItems:"center"}}>
+                    {/* <div data-aos="fade-right" data-aos-offset="" data-aos-duration={1000}  data-aos-delay="800" style={{display:"flex", alignItems:"center"}}>
                     <Typography style={{color:"white", marginInline:"6px", marginRight:"6px"}}>
                        • 
                     </Typography>
@@ -149,17 +163,17 @@ export const DrCertification = () => {
                     <Typography sx={{color:"#EBEBEB", fontSize:"16px", fontFamily:"Rubik",fontWeight:"400", lineHeight:"normal"}}>
                     Medical Advisory Board Member, Regenestem, USA.
                     </Typography>
-                    </div>
-                    <Link to="/about" style={{ textDecoration: 'none' }}> 
+                    </div> */}
+                    {/* <Link to="/about" style={{ textDecoration: 'none' }}> 
                     <Typography sx={{cursor:"pointer",marginleft:"11px", marginTop:"8px",color:"#209D9F", fontSize:"16px", fontFamily:"Rubik", fontWeight:"400"}}>
                         Read More
                     </Typography>
-                    </Link>
+                    </Link> */}
 
-                    <Link to="/about" style={{ textDecoration: 'none' }}> 
+                    <Link to="/form" style={{ textDecoration: 'none' }}> 
                     <Box sx={{display:"flex", width:"100%", justifyContent:"center", marginTop:"14px"}}>
-                      <Button data-aos="fade" data-aos-offset="" data-aos-duration={1500}  data-aos-delay="800" sx={{color:"#EBEBEB",fontFamily:"Rubik", fontWeight:"400",fontSize:"16px",textTransform:"none", height:"48px", width:"100%",maxWidth:"370px", paddingInline:""}} variant="outlined" color="primary">
-                      Contact Dr Mahl
+                      <Button data-aos="fade" data-aos-offset="" data-aos-duration={1500}  data-aos-delay="800" sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Poppins", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}} variant="outlined" color="primary">
+                      CONTACTAR
                      </Button>
                     </Box>
                     </Link> 
@@ -236,7 +250,7 @@ export const DrCertification = () => {
                             <Box sx={{ width: "100%", display: "flex", background: "", maxWidth: "564px", marginTop:"5%" }}>
                                 <Box sx={{ background: "", display: "flex", flexDirection: "column" }}>
 
-                                    <Typography data-aos="fade" data-aos-offset="-30" data-aos-duration={2500}  data-aos-delay="200" sx={{width:"100%", marginBottom: "28px", color: "#EBEBEB", fontFamily: "Ubuntu", fontSize: "40px", fontWeight: "700", lineHeight: "normal" }}>
+                                    <Typography data-aos="fade" data-aos-offset="-30" data-aos-duration={2500}  data-aos-delay="200" sx={{width:"100%", marginBottom: "0px", color: "#EBEBEB", fontFamily: "Ubuntu", fontSize: "40px", fontWeight: "700", lineHeight: "normal" }}>
                                     ACERCA DE MD GLOBAL
                                     </Typography>
 
