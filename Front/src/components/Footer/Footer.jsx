@@ -25,7 +25,10 @@ const is450 = useMediaQuery('(max-width:450px)');
     
     <>
 
-    <Box sx={{display:"flex", justifyContent:"center",  maxHeight:"600px", width:"100%", background:"#282828"}}>
+    <Box sx={{display:"flex", justifyContent:"center",  maxHeight:"600px", width:"100%", background: 'linear-gradient(45deg, #333333, #666666), url("back.jpg")',
+  backgroundBlendMode: 'overlay',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',}}>
     <Box sx={{display:"flex", flexDirection:"column",}}>
     <Box sx={{display:"flex", flexDirection:"column", width:"100%"}}>
     
@@ -59,10 +62,15 @@ const is450 = useMediaQuery('(max-width:450px)');
     </Typography>
 
     <Box sx={{display:"flex", alignItems:"center", width:"100%", maxWidth:"227px", justifyContent:"space-between"}}>
+    <a style={{textDecoration:"none"}} href="https://www.instagram.com/">
 <img style={{width:"27px", marginTop:"27px", marginTop:"30px", cursor:"pointer"}} src={instagramFooterImg}></img>
+</a>
+<a style={{textDecoration:"none"}} href="https://www.facebook.com/MDGLOBALGROUP?mibextid=LQQJ4d">
 <img style={{width:"33px", marginTop:"33px", cursor:"pointer"}} src={facebookFooterImg}></img>
+</a>
+<a style={{textDecoration:"none"}} href="https://www.linkedin.com/company/md-global/">
 <img style={{width:"33px", marginTop:"33px", cursor:"pointer"}} src={linkedinFooterImg}></img>
-
+</a>
     </Box>
 
     
@@ -125,7 +133,10 @@ const is450 = useMediaQuery('(max-width:450px)');
 
     <>
     
-    <Box sx={{display:"flex", justifyContent:"center", height:"100%", maxHeight:"293px",background:"#282828"}}>
+    <Box sx={{display:"flex", justifyContent:"center", height:"100%", maxHeight:"293px",background: 'linear-gradient(45deg, #333333, #666666), url("back.jpg")',
+  backgroundBlendMode: 'overlay',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',}}>
 <Box sx={{width:"1440px", display:"flex", alignItems:"center", height:"100%"}}>
     <Grid container spacing={0}>
       <Grid item xs={4}>
@@ -189,10 +200,15 @@ const is450 = useMediaQuery('(max-width:450px)');
     </Typography>
 
     <Box sx={{display:"flex", alignItems:"center", width:"100%", maxWidth:"206px", justifyContent:"space-between"}}>
+    <a style={{textDecoration:"none"}} href="https://www.instagram.com/">
 <img style={{width:"27px", marginTop:"27px", marginTop:"30px", cursor:"pointer"}} src={instagramFooterImg}></img>
+</a>
+<a style={{textDecoration:"none"}} href="https://www.facebook.com/MDGLOBALGROUP?mibextid=LQQJ4d">
 <img style={{width:"33px", marginTop:"33px", cursor:"pointer"}} src={facebookFooterImg}></img>
+</a>
+<a style={{textDecoration:"none"}} href="https://www.linkedin.com/company/md-global/">
 <img style={{width:"33px", marginTop:"33px", cursor:"pointer"}} src={linkedinFooterImg}></img>
-
+</a>
     </Box>
     </Box>
         </Box>
@@ -249,7 +265,10 @@ const is450 = useMediaQuery('(max-width:450px)');
     :
     // ------ Desktop ------
 
-    <Box sx={{display:"flex", justifyContent:"center", height:"100%", maxHeight:"293px", background:"#282828", paddingBottom:"320px"}}>
+    <Box sx={{display:"flex", justifyContent:"center", height:"100%", maxHeight:"293px",  paddingBottom:"320px",background: 'linear-gradient(45deg, #333333, #666666), url("back.jpg")',
+    backgroundBlendMode: 'overlay',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',}}>
 <Box sx={{width:"1440px", display:"flex", alignItems:"center", height:"100%"}}>
     <Grid container spacing={0}>
       <Grid item xs={5}>
@@ -370,10 +389,19 @@ const is450 = useMediaQuery('(max-width:450px)');
 
     
 
+    
     <Box sx={{display:"flex", alignItems:"center", width:"100%", justifyContent:"space-between"}}>
-<img style={{width:"27px", marginTop:"27px", marginTop:"30px", cursor:"pointer"}} src={instagramFooterImg}></img>
+    <a style={{textDecoration:"none"}} href="https://www.instagram.com/">
+      <img style={{width:"27px", marginTop:"27px", marginTop:"30px", cursor:"pointer"}} src={instagramFooterImg}></img>
+    </a>
+
+    <a style={{textDecoration:"none"}} href="https://www.facebook.com/MDGLOBALGROUP?mibextid=LQQJ4d">
 <img style={{width:"33px", marginTop:"33px", cursor:"pointer"}} src={facebookFooterImg}></img>
+        </a>
+
+        <a style={{textDecoration:"none"}} href="https://www.linkedin.com/company/md-global/">
 <img style={{width:"33px", marginTop:"33px", cursor:"pointer"}} src={linkedinFooterImg}></img>
+</a>
 
     </Box>
 

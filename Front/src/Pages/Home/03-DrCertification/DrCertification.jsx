@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Box, Typography, Button } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import {Link} from "react-router-dom"
-import DoctorImg from "../../../assets/services/mount.png"
+import DoctorImg from "../../../assets/services/mundo.png"
 import zIndex from '@mui/material/styles/zIndex';
 
 import frameimg from "../../../assets/services/frame.png"
@@ -31,7 +31,7 @@ export const DrCertification = () => {
 <Grid
     sx={{
         display: "flex",
-        background: "#666666",
+        background: "transparent",
         position: "absolute",
         width: "100%",
         maxHeight: "1400px",
@@ -46,7 +46,10 @@ export const DrCertification = () => {
 <Box sx={{ display: "flex", alignItems: "center",justifyContent:"center", position: "relative", width: "100%", height: "777px", maxWidth: "1440px", maxHeight: "777px" ,zIndex: 50 }}>
     <Grid height={"100%"} sx={{ display: "flex", alignItems: "center",  }} container spacing={0}>
         
-        <Grid sx={{ background: "#666666;", display:"flex", paddingTop:"48px", paddingBottom:"48px", paddingInline:"10px", borderRadius:"20px", justifyContent:"center" }} item xs={12}>
+        <Grid sx={{ background: 'linear-gradient(45deg, #333333, #666666), url("back.jpg")',
+  backgroundBlendMode: 'overlay',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover', display:"flex", paddingTop:"48px", paddingBottom:"48px", paddingInline:"10px", borderRadius:"20px", justifyContent:"center" }} item xs={12}>
 
 
             <Box sx={{ width: "100%", display: "flex", background: "", maxWidth: "800px", marginInline:"6%" }}>
@@ -201,7 +204,10 @@ export const DrCertification = () => {
                 <Grid data-aos="fade" data-aos-offset="-30" data-aos-duration={250}  data-aos-delay="100"
                     sx={{
                         display: "flex",
-                        background: "#423E3F",
+                        background: 'linear-gradient(45deg, #333333, #666666), url("back.jpg")',
+  backgroundBlendMode: 'overlay',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
                         position: "absolute",
                         width: is1440?"87.6%":"82%",
                         //maxHeight: "1090px",
@@ -237,14 +243,17 @@ export const DrCertification = () => {
                                 maxWidth: is1024?"94%":'100%',
                                 height: '30vh', 
                                 width:"100%",
-                                marginLeft:"-70px",
+                                height:"100%",
+                                maxWidth:"500px",
+                                marginLeft:"-10vh",
+                                marginTop:"-8vh",
                                 objectFit: 'cover' }}>
                                 </img>
                             
                         </Grid>
 
                         {/* Segundo elemento que ocupará la otra mitad del espacio */}
-                        <Grid sx={{ background: "" }} item xs={6}>
+                        <Grid sx={{ background: "", marginTop:"-100px" }} item xs={6}>
 
 
                             <Box sx={{ width: "100%", display: "flex", background: "", maxWidth: "564px", marginTop:"5%" }}>
@@ -280,7 +289,7 @@ export const DrCertification = () => {
                                     <Link to="/about" style={{ textDecoration: 'none' }}> 
                                     <Box sx={{display:"flex", width:"100%", justifyContent:"center", marginTop:"36px"}}>
                                     <Button data-aos="" data-aos-duration={1400} data-aos-delay="500" variant="contained" sx={{width:"100%",background:"#912327", color:"#EBEBEB",fontFamily:"Rubik", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
-                    ADUANAS
+                    NOSOTROS
                     </Button>
                                     </Box>
                                     </Link> 

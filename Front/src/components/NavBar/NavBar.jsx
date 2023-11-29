@@ -4,7 +4,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import LogoBost from "../../assets/logoMDGlobal.png";
+import LogoBost from "../../assets/logoMDGlobal2.png";
 import LogoSearch from "../../assets/search.svg";
 import Menu from "../../assets/Menu.svg"
 import Close from "../../assets/Close.svg"
@@ -35,7 +35,10 @@ const DivNavbarWrapper = styled("div")({
 });
 
 const DivNavbar = styled("div")({
-  backgroundColor: "#EFEFEF",
+  background: 'linear-gradient(45deg, #333333, #666666), url("back.jpg")',
+  backgroundBlendMode: 'overlay',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
   //opacity:"0.9",
   boxShadow: "0px 0px 20px #2929291a",
   height: is1024?"80px":"80px",
@@ -74,7 +77,7 @@ const Div = styled("div")({
 });
 
 const TextWrapper = styled(Typography)({
-  color: "#912327",
+  color: "white",
   textAlign:"center",
   fontSize: "20px",
   fontWeight: 400,
@@ -84,7 +87,7 @@ const TextWrapper = styled(Typography)({
  
   width: '120%',
   //position: "relative",
-  
+  textShadow: '2px 2px 4px rgba(1, 1, 1, 0.5)',
   textTransform: 'none',
   '&:hover': {
     // Estilos aplicados al hacer hover

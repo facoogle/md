@@ -36,10 +36,9 @@ export const OurHome = ()=> {
         { id: 2, text: 'WAREHOUSING',img:i2,name:"" },
         { id: 3, text: 'AUDITORIAS PREVENTIVAS',img:i3,name:"" },
         {id:4, text:"PERMISOS NOMS/RRNA",img:i4,name:""},
-        {id:5, text:"COMERCIALIZADORA",img:i5,name:""},
         {id:6, text:"CLASIFICACION ARANCELARIA",img:i6,name:""},
         {id:7, text:"ATENCION PERSONALIZADA",img:i7,name:""},
-        {id:8, text:"FRANQUICIAS",img:i8,name:""},
+        {id:8, text:"LOGÍSTICA",img:i8,name:""},
         {id:8, text:"SEGURIDAD JURIDICA",img:i9,name:""},
         
       ];
@@ -128,11 +127,11 @@ let mar = true
         <Grid container spacing={2} sx={{marginTop:"32px"}}>
 
         {filteredItems2.map((item) => (
-          <Grid item xs={12} sm={6} key={item.id}>
+          <Grid item xs={12} sm={6} key={item.id} data-aos="fade-right" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="200">
             <div style={{padding:"16px 24px", display:"flex", alignItems:"center", gap:"16px"}}>
             <Link to={`/ouservices/page/${item.name}`} style={{ textDecoration: 'none' }}>
                 <div>
-                    <img src={item.img} alt="img"  style={{borderRadius:"50%", width:"70px", height:"70px"}}/>
+                    <img data-aos="fade" data-aos-delay="500" src={item.img} alt="img"  style={{borderRadius:"50%", width:"70px", height:"70px"}}/>
                 </div>
               </Link>
               <div>

@@ -85,7 +85,7 @@ const is600 = useMediaQuery('(max-width:600px)');
     <div data-aos="fade-down-right" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="100"  style={{  display: "flex", flexDirection: "column", alignItems: "center", width: '100%', height: "250px", borderRadius: "8px"}}>
         <div style={{background:"#D9D9D9", padding:"30px", borderRadius:"50%", filter:"drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))", marginBottom:"20px"}}>
 
-        <img src={img1}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
+        <img src={img2}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
         </div>
         <Typography sx={{marginBottom:"24px", maxWidth:"260px",color:"#423E3F", textAlign:"center", fontFamily:"Rubik", fontSize:"24px", fontWeight:500,lineHeight:"normal"}}>
         Servicio Personalizado
@@ -103,7 +103,7 @@ const is600 = useMediaQuery('(max-width:600px)');
     <div data-aos="fade-down-right" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="100"  style={{  display: "flex", flexDirection: "column", alignItems: "center", width: '100%', height: "250px", borderRadius: "8px"}}>
         <div style={{background:"#D9D9D9", padding:"30px", borderRadius:"50%", filter:"drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))", marginBottom:"20px"}}>
 
-        <img src={img1}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
+        <img src={img3}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
         </div>
         <Typography sx={{marginBottom:"24px", maxWidth:"200px",color:"#423E3F", textAlign:"center", fontFamily:"Rubik", fontSize:"24px", fontWeight:500,lineHeight:"normal"}}>
         Respaldo Jurídico
@@ -199,7 +199,7 @@ const is600 = useMediaQuery('(max-width:600px)');
     <div data-aos="fade-down" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="100"  style={{  display: "flex", flexDirection: "column", alignItems: "center", width: '100%', height: "250px", borderRadius: "8px"}}>
         <div style={{background:"#D9D9D9", padding:"30px", borderRadius:"50%", filter:"drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))", marginBottom:"20px"}}>
 
-        <img src={img1}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
+        <img src={img2}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
         </div>
         <Typography sx={{marginBottom:"24px", maxWidth:"260px",color:"#423E3F", textAlign:"center", fontFamily:"Rubik", fontSize:"24px", fontWeight:500,lineHeight:"normal"}}>
         Servicio Personalizado
@@ -221,7 +221,7 @@ const is600 = useMediaQuery('(max-width:600px)');
     <div data-aos="fade-down-left" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="100"  style={{  display: "flex", flexDirection: "column", alignItems: "center", width: '100%', height: "250px", borderRadius: "8px"}}>
         <div style={{background:"#D9D9D9", padding:"30px", borderRadius:"50%", filter:"drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))", marginBottom:"20px"}}>
 
-        <img src={img1}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
+        <img src={img3}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
         </div>
         <Typography sx={{marginBottom:"24px", maxWidth:"230px",color:"#423E3F", textAlign:"center", fontFamily:"Rubik", fontSize:"24px", fontWeight:500,lineHeight:"normal"}}>
         Despachos Nacionales
@@ -287,7 +287,7 @@ const is600 = useMediaQuery('(max-width:600px)');
     <div data-aos="fade-down" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="100"  style={{  display: "flex", flexDirection: "column", alignItems: "center", width: '100%', height: "250px", borderRadius: "8px"}}>
         <div style={{background:"#D9D9D9", padding:"30px", borderRadius:"50%", filter:"drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))", marginBottom:"20px"}}>
 
-        <img src={img1}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
+        <img src={img2}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
         </div>
         <Typography sx={{marginBottom:"24px", maxWidth:"260px",color:"#423E3F", textAlign:"center", fontFamily:"Rubik", fontSize:"24px", fontWeight:500,lineHeight:"normal"}}>
         Servicio Personalizado
@@ -305,7 +305,7 @@ const is600 = useMediaQuery('(max-width:600px)');
     <div data-aos="fade-down-right" data-aos-offset="-30" data-aos-duration={500}  data-aos-delay="100"  style={{  display: "flex", flexDirection: "column", alignItems: "center", width: '100%', height: "250px", borderRadius: "8px"}}>
         <div style={{background:"#D9D9D9", padding:"30px", borderRadius:"50%", filter:"drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))", marginBottom:"20px"}}>
 
-        <img src={img1}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
+        <img src={img3}  alt="img" style={{ width:"99px", marginBottom:"8px"}} />
         </div>
         <Typography sx={{marginBottom:"24px", maxWidth:"200px",color:"#423E3F", textAlign:"center", fontFamily:"Rubik", fontSize:"24px", fontWeight:500,lineHeight:"normal"}}>
         Respaldo Jurídico

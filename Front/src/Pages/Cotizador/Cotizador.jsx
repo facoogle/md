@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, CardContent, Typography, Button, Container, Grid, Box, LinearProgress, useMediaQuery } from '@mui/material';
+import { Card, CardContent, Button, Container, Grid, Box, LinearProgress, useMediaQuery } from '@mui/material';
 import primeravez from "../../assets/asesoria.png"
 import experiencia from "../../assets/experiencia.svg"
 import asesoria from "../../assets/asesoria.svg"
@@ -16,6 +16,7 @@ import logistica from "../../assets/logistica.avif"
 import camion from "../../assets/pngegg.png"
 import LogisticaForm from './Form';
 import { useNavigate } from 'react-router-dom';
+import { Typography } from '@mui/material';
 
 
 export const Cotizador = () => {
@@ -174,6 +175,24 @@ export const Cotizador = () => {
           Retroceder
         </Button>
       )}
+
+      <Box sx={{display:"flex", flexDirection:"column", width:"100%", marginTop:"48px"}}>
+        <Typography>
+        * HONORARIOS PARA PEDIMENTO A1 MERCANCIA TRADICIONAL, NO PERECEDEROS, NO VULNERABLES, HAZMAT, NI DE DIFICIL IDENTIFICACION.
+        </Typography>
+        <Typography>
+        * NO INCLUYE MANIOBRAS, COMERCIALIZADORA, TRANSPORTE, SEGURO U OTROS SERVICIOS NO ESPECIFICADOS.
+        </Typography>
+        <Typography>
+        * NO INCLUYE IMPUESTOS, DERECHOS U OTROS CONCEPTOS ESTABLECIDOS POR LA AUTORIDAD.
+        </Typography>
+        <Typography>
+        * PRECIOS DE REFERECIA, NO GARANTIZAN QUE SE LLEVE A CABO EL SERVICIO, FAVOR DE COTIZAR PARA UNA OFERTA PERSONALIZADA.
+        </Typography>
+        <Typography>
+        * MV = MANIFESTACION DE VALOR HC = HOJA DE CALCULO.
+        </Typography>
+      </Box>
     </Container>
   );
 };

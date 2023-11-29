@@ -36,7 +36,7 @@ export const MiniCardFinal = ({mar}) => {
           <Grid item xs={12}>
             <Box sx={{display:"flex", flexDirection:"column", background:"", }}>
             <Typography sx={{ color:mar?"white":"#161122", fontFamily:"Rubik", fontSize:"24px", lineHeight:"32px", fontWeight:"400"}}>
-            Conoce nuestra herramienta de cotización aduanera. Controla tus costos de importación. Cotiza con inteligencia, ahorra eficazmente.
+            Conoce nuestra herramienta de cotización aduanera. Cotiza con inteligencia.
             </Typography>
 
             <Typography sx={{marginTop:"8px", color:mar?"white":"#161122", fontFamily:"Ubuntu", fontSize:"24px", lineHeight:"32px", fontWeight:"500", textTransform:"uppercase"}}>
@@ -65,7 +65,7 @@ export const MiniCardFinal = ({mar}) => {
           <Grid item xs={7}>
             <Box sx={{display:"flex", flexDirection:"column", background:"", }}>
             <Typography sx={{ textShadow: "2px 2px 5px rgba(0, 0, 0, 1)", color:"white", fontFamily:"Rubik", fontSize:"24px", lineHeight:"32px", fontWeight:"400"}}>
-            Conoce nuestra herramienta de cotización aduanera. Controla tus costos de importación. Cotiza con inteligencia, ahorra eficazmente.
+            Conoce nuestra herramienta de cotización aduanera. Cotiza con inteligencia.
             </Typography>
 
             <Typography sx={{marginTop:"8px",textShadow: "2px 2px 5px rgba(0, 0, 0, 1)", color:"white", fontFamily:"Ubuntu", fontSize:"24px", lineHeight:"32px", fontWeight:"500", textTransform:"uppercase"}}>
@@ -97,7 +97,7 @@ export const MiniCardFinal = ({mar}) => {
           <Grid item xs={8}>
             <Box sx={{display:"flex", flexDirection:"column", background:"", }}>
             <Typography sx={{ color:"white", textShadow: "2px 2px 5px rgba(0, 0, 0, 1)", fontFamily:"Rubik", fontSize:"24px", lineHeight:"32px", fontWeight:"500"}}>
-            Conoce nuestra herramienta de cotización aduanera. Controla tus costos de importación. Cotiza con inteligencia, ahorra eficazmente.
+            Conoce nuestra herramienta de cotización aduanera. Cotiza con inteligencia.
             </Typography>
 
             <Typography sx={{marginTop:"20px",textShadow: "2px 2px 5px rgba(0, 0, 0, 1)", color:"white", fontFamily:"Ubuntu", fontSize:"24px", lineHeight:"32px", fontWeight:"600", textTransform:"uppercase"}}>

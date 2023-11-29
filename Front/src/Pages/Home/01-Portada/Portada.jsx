@@ -99,12 +99,12 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
                </Typography>
                
                     
-                    <Typography data-aos="fade-right" data-aos-duration={1500} data-aos-delay="200" sx={{color:"#912327", fontSize:is300?"30px":"40px", fontWeight:400, lineHeight:"normal",marginBottom:"12px", width:"100%", maxWidth:"312px"}}>
-                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR
+                    <Typography data-aos="fade-right" data-aos-duration={1500} data-aos-delay="200" sx={{color:"white", fontSize:is300?"30px":"40px", fontWeight:400, lineHeight:"normal",marginBottom:"12px", width:"100%", maxWidth:"312px"}}>
+                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR.
                     </Typography>
 
                     <Typography data-aos="fade-right" data-aos-duration={1500} data-aos-delay="300" sx={{width:"100%",maxWidth:"472px",color:"#EBEBEB", fontFamily:"Rubik", fontSize:"14px", fontWeight:400,lineHeight:"normal",marginBottom:"24px", maxWidth:"264px"}}>
-                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística
+                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística.
                     </Typography>
 
                     <Link to="/services" style={{ textDecoration: 'none' }}>
@@ -130,11 +130,11 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
                </Typography>
                    
                     <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#EBEBEB", fontSize:"40px", fontWeight:400, lineHeight:"normal",marginBlock:"32px"}}>
-                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR
+                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR.
                     </Typography>
 
                     <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="400" sx={{width:"100%",maxWidth:"472px",color:"#EBEBEB", fontFamily:"Rubik", fontSize:"16px", fontWeight:400,lineHeight:"normal",marginBottom:"32px"}}>
-                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística
+                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística.
                     </Typography>
                     {/* <Link to="/about" style={{ textDecoration: 'none' }}>
                     <Button data-aos="fade" data-aos-duration={1400} data-aos-delay="500" variant="contained" sx={{width:"100%",background:"#209D9F", color:"#EBEBEB",fontFamily:"Rubik", fontSize:"16px",fontWeight:400, maxWidth:"316px", textTransform: "none",}}>
@@ -154,7 +154,7 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
         <Box sx={{display:"flex", width:"100%", justifyContent:"center"}}>
             <Box sx={{display:"flex", width:"1440px"}}>
 
-                <Box sx={{marginInline:is1440?"64px":"", marginTop:"",width:"100%",maxWidth:"648px", flexDirection:"column"}}>
+                <Box sx={{marginInline:is1440?"64px":"", marginTop:"",width:"100%",maxWidth:"648px", flexDirection:"column", }}>
                     
                 <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#EBEBEB", fontSize:"42px", fontFamily:"Poppins", fontWeight:700, lineHeight:"normal"}}>
                 UNA AGENCIA
@@ -162,12 +162,12 @@ const imgPortadaMobile = imagesTablet[currentImageIndex];
                     
                    
 
-                    <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#912327", fontSize:"64px", fontWeight:700, fontFamily:"Poppins", lineHeight:"normal"}}>
-                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR
+                    <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="300" sx={{color:"#912327", fontSize:"80px", fontWeight:700, fontFamily:"Poppins", lineHeight:"1"}}>
+                    ALIADOS DE TUS OPERACIONES DE COMERCIO EXTERIOR.
                     </Typography>
 
                     <Typography data-aos="fade-right" data-aos-duration={1000} data-aos-delay="400" sx={{width:"100%",color:"#EBEBEB", fontFamily:"Poppins", fontSize:"20px", fontWeight:400,lineHeight:"normal",marginBottom:"16px"}}>
-                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística
+                    En MD Global Trade Services somos un equipo de trabajo que encuentra soluciones aduaneras para su cadena logística.
                     </Typography>
 
                     <Link to="/services" style={{ textDecoration: 'none' }}>
